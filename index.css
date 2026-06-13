@@ -1,6 +1,4 @@
-.nome {
-  font-size: 56px;
-}
+/* Seção Geral  */
 h1,
 .nome-secao {
   font-weight: 600;
@@ -13,6 +11,10 @@ h1,
   margin: 20px;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+}
+
+.nome {
+  font-size: 56px;
 }
 /* Seção Dados pessoais */
 .dados-pessoais {
