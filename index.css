@@ -1,0 +1,90 @@
+.nome {
+  font-size: 56px;
+}
+h1,
+.nome-secao {
+  font-weight: 600;
+  color: darkblue;
+  font-size: 32px;
+}
+
+/* Seção Cabeçalho */
+.cabecalho {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+/* Seção Dados pessoais */
+.dados-pessoais {
+  margin: 5px;
+  padding: 10px;
+}
+/* Seção Objetivos */
+.objetivos {
+  margin: 5px;
+  padding: 10px;
+}
+/* Seção Resumo Profissional */
+.resumo-profissional {
+  margin: 5px;
+  padding: 10px;
+}
+.experiencia-profissional {
+  font-weight: 600;
+  color: darkblue;
+  font-size: 18px;
+}
+/* Seção Formação acadêmica */
+.formacao-academica {
+  margin: 5px;
+  padding: 10px;
+}
+.grau-formacao {
+  font-weight: 600;
+  color: darkblue;
+  font-size: 18px;
+}
+/* Seção Idioma */
+.idioma {
+}
+
+.formatacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  margin: 5px;
+  padding: 10px;
+}
+
+.habilidade {
+  text-align: center;
+}
+.pontos {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.pontos span {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: gray;
+}
+.pontos span.ativo {
+  background-color: green;
+}
+
+.nome-idioma,
+.habilidade {
+  flex: 1;
+  font-weight: 600;
+  font-size: 18px;
+  color: darkblue;
+}
+
+/* Seção Ultima Atualização */
+.ultima-atualizacao {
+  margin: 5px;
+  padding: 10px;
+}
